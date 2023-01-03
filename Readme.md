@@ -1,14 +1,14 @@
 # Animonculory Visual Overhaul
 
-![image](https://raw.githubusercontent.com/The-Animonculory/Animonculory-Visual-Overhaul/main/.github/AVOLogo.webp)
+![image](https://raw.githubusercontent.com/The-Animonculory/AVO-AE/main/.github/AVOAENewLogo.webp)
 
 Wabbajack Modlist Installer by Althro & Styyx
 
 <table stlyle="border: none;">
 <tr>
-<td><img src="https://raw.githubusercontent.com/The-Animonculory/Animonculory-Visual-Overhaul/main/.github/WJIcon.png" width="64px" /></td>
+<td><img src="https://raw.githubusercontent.com/The-Animonculory/AVO-AE/main/.github/WJIcon.png" width="64px" /></td>
 <td><a href="https://github.com/wabbajack-tools/wabbajack/releases">Download on Wabbajack</a></td>	
-<td><img src="https://raw.githubusercontent.com/The-Animonculory/Animonculory-Visual-Overhaul/main/.github/GitHub.png" width="72px" /></td>
+<td><img src="https://raw.githubusercontent.com/The-Animonculory/AVO-AE/main/.github/GitHub.png" width="72px" /></td>
 <td><a href="https://discord.gg/DffHKcszfg">Support Discord</a></td>
 </tr>
 </table>
@@ -37,7 +37,7 @@ Wabbajack Modlist Installer by Althro & Styyx
     - [Starting up the list](#starting-up-the-list)
     - [In Game MCM Options](#in-game-mcm-options)
     - [Starting the Game](#starting-the-game)
-  - [Adding mods to AVO](#adding-mods-to-avo)  
+  - [Adding mods to AVO](#adding-mods-to-avo-ae)  
   - [Updating AVO](#updating-the-modlist)
   - [FAQ](#faq)
    - [Removing the modlist](#removing-the-modlist)
@@ -46,7 +46,9 @@ Wabbajack Modlist Installer by Althro & Styyx
 
 ## Preamble
 
-Animonculory Visual Overhaul (AVO) is designed as a list to bring the vanilla game up to modern standards without changing the core vanilla feel and gameplay. Featuring graphical enhancements, mandatory bug fixes and tweaks and method patching, it is the perfect base to build upon. AVO is made for Skyrim Special Edition Version 1.6.640 and uses the .exe of that version as well. It **DOES NOT** require the paid update to the game. It uses [Rustic Weathers](https://www.nexusmods.com/skyrimspecialedition/mods/8398) by default; however, it can support whichever weather mod you wish to use.
+**NOTE**: AVO-AE **REQUIRES** the paid update to Skyrim. If you do not own it, please use the [standard version](https://github.com/The-Animonculory/Animonculory-Visual-Overhaul/blob/main/Readme.md).
+
+Animonculory Visual Overhaul (AVO) is designed as a list to bring the vanilla game up to modern standards without changing the core vanilla feel and gameplay. Featuring graphical enhancements, mandatory bug fixes and tweaks and method patching, it is the perfect base to build upon. AVO is made for Skyrim Special Edition Version 1.6.640 and uses the .exe of that version as well. It uses [Rustic Weathers](https://www.nexusmods.com/skyrimspecialedition/mods/8398) by default; however, it can support whichever weather mod you wish to use.
 
 The full modlist can be viewed [here](https://loadorderlibrary.com/lists/animonculory-visual-overhaul), a selection of screenshots can be viewed [here](https://imgur.com/a/mcpBqFW) and a video showcase by DroppedIceCream of an older version can be viewed below.
 
@@ -88,6 +90,7 @@ Prior to installing AVO, please complete the following steps.
 3. Fully uninstall Skyrim by deleting the folder and the Skyrim Special edition folder inside \Documents\My Games\.
 4. Reinstall Skyrim into a location that is not Program files. Somewhere like `C:\Games` is a good location.
 5. Start the game once and let it do the graphics check. Do not worry about the settings as it will be replaced during installation.
+6. Start the game to the main menu in order to download all the creations.
 
 ***
 
@@ -102,8 +105,8 @@ Once you have completed pre-installation, download the [latest version of Wabbaj
 Downloading and installing AVO can take a while depending on your internet connection and computer. To install AVO, complete the following steps.
 
 1. Open Wabbajack and click on browse modlists.
-2. Press the download button on AVO and wait for it to download.
-3. Set the installation folder to be somewhere like C:\Games\AVO. **Do not install it to your desktop or downloads folder.**
+2. Press the download button on AVO-AE and wait for it to download.
+3. Set the installation folder to be somewhere like C:\Games\AVOAE. **Do not install it to your desktop or downloads folder.**
 4. The download location does not need to be on a SSD but it makes installing a bit faster
 5. Press the play button to begin.
 6. Go and pet your nearest fluffy animal whilst Wabbajack does its thing. Alternatively read through this readme again.
@@ -131,13 +134,13 @@ It is possible that you may encounter an error with Wabbajack when installing. S
 
 ### Game Folder
 
-AVO uses a Wabbajack feature called Stock Game to keep your Skyrim installation clean. All the files that you need to run the list are in a folder called “Game Root”. You don’t need to copy anything at all.
+AVO-AE uses a Wabbajack feature called Stock Game to keep your Skyrim installation clean. All the files that you need to run the list are in a folder called “Game Root”. You don’t need to copy anything at all.
 
 ***
 
 ### Reshade
 
-Starting with version 3, AVO now comes with two Reshade presets that have been custom tweaked to fit the list. To swap between them, you will need to follow the steps below.
+Starting with version 3, AVO-AE now comes with two Reshade presets that have been custom tweaked to fit the list. To swap between them, you will need to follow the steps below.
 
 #### Change the Reshade
 
@@ -145,21 +148,21 @@ Starting with version 3, AVO now comes with two Reshade presets that have been c
 2. There will be a dropdown box on the top right and a big `Run` button next to it. 
 3. Run the program named `Manage ENB/Reshade Presets` from Mod Organizer 2.
 
-![image](https://raw.githubusercontent.com/The-Animonculory/Animonculory-Visual-Overhaul/main/.github/Select%20ER%20Manager.png)
+![image](https://raw.githubusercontent.com/The-Animonculory/AVO-AE/main/.github/Select%20ER%20Manager.png)
 
 If the image below comes up, simply press OK. It is nothing to be concerned about.
 
-![image](https://github.com/The-Animonculory/Animonculory-Visual-Overhaul/blob/main/.github/Ignore%20Warning.png?raw=true)
+![image](https://github.com/The-Animonculory/AVO-AE/blob/main/.github/Ignore%20Warning.png?raw=true)
 
 Navigate to the Presets menu by pressing the symbol in the top left (the three lines). The menu should look like this:
 
-![image](https://github.com/The-Animonculory/Animonculory-Visual-Overhaul/blob/main/.github/ENB%203.png?raw=true)
+![image](https://github.com/The-Animonculory/AVO-AE/blob/main/.github/ENB%203.png?raw=true)
 
 Activate the Reshade you wish to use by pressing the slider. To deactivate it, simply press the slider.
 
-![image](https://raw.githubusercontent.com/The-Animonculory/Animonculory-Visual-Overhaul/main/.github/Pick%20the%20Preset.webp)
+![image](https://raw.githubusercontent.com/The-Animonculory/AVO-AE/main/.github/Pick%20the%20Preset.webp)
 
-For adding your own presets and more details, please follow the guide in [How to Modify AVO](https://github.com/The-Animonculory/Animonculory-Visual-Overhaul/blob/main/Adding%20mods%20to%20AVO.md).
+For adding your own presets and more details, please follow the guide in [How to Modify AVO](https://github.com/The-Animonculory/AVO-AE/blob/main/Adding%20mods%20to%20AVO.md).
 
 ## Playing the List
 
@@ -177,9 +180,9 @@ Make sure the dropdown box on the right is set to `SKSE` and press the `Run` but
 
 - Placeholder for your Readme. By default, AVO uses [Optional Quick Start](https://www.nexusmods.com/skyrimspecialedition/mods/63953).
 	
-## Adding mods to AVO
+## Adding mods to AVO-AE
 
-To safely add mods to AVO, please read [the guide](https://github.com/The-Animonculory/Animonculory-Visual-Overhaul/blob/main/Adding%20mods%20to%20AVO.md), which covers some of the details you need to know.
+To safely add mods to AVO, please read [the guide](https://github.com/The-Animonculory/AVO-AE/blob/main/Adding%20mods%20to%20AVO.md), which covers some of the details you need to know.
 
 ## Updating the modlist
 
@@ -188,12 +191,6 @@ Before updating, please check the changelog and back up your saves. You may need
 Updating is like installing the list. Simply make sure your paths are the same and tick the `overwrite existing modlist` button. **Note**: Any mods you have added will be deleted when updating.
 
 ## FAQ
-
-### I own the AE paid addon. How do I use it?
-
-You will need to copy all of the CC content into the `Game Root` folder and then use the `Curation Club` tool in MO2 to manage it properly. **Note**: You will **need** to resolve conflicts in xEdit.
-
-***
 
 ### Tweaking the Game Settings
 
@@ -217,9 +214,9 @@ Simply delete the folder, and you have uninstalled it.
 
 ## Contact
 
-Whilst I am available primarily on [my server](https://discord.gg/DffHKcszfg), please check the [issues](https://github.com/The-Animonculory/Animonculory-Visual-Overhaul/issues) tab on github first if you have any issues. DO NOT DM ME ON DISCORD.
+Whilst I am available primarily on [my server](https://discord.gg/DffHKcszfg), please check the [issues](https://github.com/The-Animonculory/AVO-AE/issues) tab on github first if you have any issues. DO NOT DM ME ON DISCORD.
 
-You are welcome to [contribute](https://github.com/The-Animonculory/Animonculory-Visual-Overhaul/blob/main/Contributing.md) to the list, however please check the [changelog](https://github.com/The-Animonculory/Animonculory-Visual-Overhaul/blob/main/Changelog.md) before you do.
+You are welcome to [contribute](https://github.com/The-Animonculory/AVO-AE/blob/main/Contributing.md) to the list, however please check the [changelog](https://github.com/The-Animonculory/AVO-AE/blob/main/Changelog.md) before you do.
 
 ## The Animonculory Team
 - Althro - Leader & Head of Development (Author of [ADT](https://github.com/The-Animonculory/ADT/blob/main/README.md), [AVO](https://github.com/The-Animonculory/Animonculory-Visual-Overhaul) & Tinvaak)
