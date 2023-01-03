@@ -2,24 +2,13 @@
 
 ## 3.0 - "...The rebirth"
 
-**Released**: `03/01/2023`
-
-**NOTE!**: The GOG edition of AVO is temporarily **discontinued**. A version for GOG will be created at some point, but it will be for the **Anniversary Edition** of Skyrim from that store only.
+**Released**: `soon`
 
 **Info**:
 
 - **MAJOR UPDATE - NOT SAVE SAFE**
-- Updated and combed through all meshes and textures.
-- Fixed mesh and normal conflicts to provide greater level of consistency.
-- Reworked many areas of textures to fit better with new lighting/post processing.
-- Completely reworked lighting and visual FX.
-- Removed ENB in favour of Reshade.
-- Removed Root Builder and switched to Stock Game functionality for better compatability.
-- Fixed issue with Dwemer Glowmaps.
-- Adjusted INI's and Lods to improve consistency and performance.
-- Fixed issues with Bodyslide not mapping to armors correctly.
-- Regenned all genned files.
-- Removed GOG compatability - Dedicated GOG AE version will be availiable *soon*.
+- **Mirrored Changes from AVO**
+- Adjusted CC integration.
 
 ## 2.4
 
