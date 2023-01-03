@@ -2,7 +2,7 @@
 
 ## 3.0 - "...The rebirth"
 
-**Released**: `soon`
+**Released**: `03/01/2023`
 
 **Info**:
 
