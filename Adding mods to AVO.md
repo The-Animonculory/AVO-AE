@@ -6,7 +6,7 @@ No modifications are supported as we cannot track down what everyone has done. I
 
 ## Things to Know Before Modifying
 
-AVO uses **Skyrim version 1.6.6xx**. This means that **you need to use plugins that are made for Skyrim version 1.6.6xx**. If your desired plugin does not exist for 1.6.6xx (commonly referred to as AE) then you cannot use it.
+AVO uses **Skyrim version 1.6.353**. This means that **you need to use plugins that are made for Skyrim version 1.6.6xx**. If your desired plugin does not exist for 1.6.353 (commonly referred to as AE) then you cannot use it.
 
 AVO is `method` patched which means that you can, within reason, remove or change near enough anything. No modgroups are included as they can complicate matters for newer modders. 
 
@@ -130,7 +130,7 @@ Move every addition you make **above** the Synthesis and DynDOLOD esps. There is
 
 ### DLL Plugins
 
-For mods that include SKSE Plugins, **you need to use plugins that are made for Skyrim version 1.6.6xx**. This is mandatory and if your desired plugin does not exist for 1.6.6xx (commonly refered as AE), then you can't use it.
+For mods that include SKSE Plugins, **you need to use plugins that are made for Skyrim version 1.6.353**. This is mandatory and if your desired plugin does not exist for 1.6.353 (commonly refered as AE), then you can't use it.
 
 Should you wish to use a plugin that is for on older version of Skyrim, you will need to downgrade the stock game folder and replace **ALL** dll mods 
 
