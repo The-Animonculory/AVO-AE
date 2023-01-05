@@ -1,5 +1,17 @@
 # Changelog
 
+## 3.1
+
+**Released**: `05/01/2023`
+
+**Info**:
+
+- Rolled down to version 1.6.353 to abate plugin issues (something came up in testing a fork of this list).
+- Adjusted all DLL plugin versions accordingly.
+- Regenned all generated files.
+- Added: Oxygen Meter 2, DAR, Pristine Vanilla Movement, Vibrant Weapons.
+- Removed: Oxygen Meter.
+
 ## 3.0 - "...The rebirth"
 
 **Released**: `03/01/2023`
