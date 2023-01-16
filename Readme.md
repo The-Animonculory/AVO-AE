@@ -184,6 +184,8 @@ Make sure the dropdown box on the right is set to `SKSE` and press the `Run` but
 
 To safely add mods to AVO, please read [the guide](https://github.com/The-Animonculory/AVO-AE/blob/main/Adding%20mods%20to%20AVO.md), which covers some of the details you need to know.
 
+**NOTE**: A mod that extends Survival mode is present in this list. [Survival Mode Improved SKSE](https://www.nexusmods.com/skyrimspecialedition/mods/78244) will **enable survival mode** by default. You can either disable the mod, or, if you want Survival Mode not auto starting, you can change the value of "bAutoEnableSMOnNewGame" in the ini to 0.
+
 ## Updating the modlist
 
 Before updating, please check the changelog and back up your saves. You may need to start a new game after certain updates.
