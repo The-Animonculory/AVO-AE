@@ -4,6 +4,8 @@
 
 **Released**: `soon`
 
+**NOTE**: This is the last planned update to AVO for a while.
+
 **Info**:
 
 - Migrated back to 1.6.640 to enable usage of new plugin features.
