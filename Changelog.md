@@ -1,5 +1,20 @@
 # Changelog
 
+## 3.2
+
+**Released**: `soon`
+
+**Info**:
+
+- Migrated back to 1.6.640 to enable usage of new plugin features.
+- Fixed issue which required roll-down.
+- Updated all DLL plugins which required updates for version compatability.
+- Re-added GOG compatability.
+- Re-added Root Builder to enable cross-platform working.
+- Tweaked NPC visuals to ensure more consistant look.
+- Added DLAA for improved Antialiasing (**RTX BASED CARDS ONLY!**)
+- Reworked/Added Post-Processing section to give user option of choosing either ENB or Reshade. Both are now self-contained and can be switched between easily.
+
 ## 3.1.1
 
 **Released**: `06/01/2023`
