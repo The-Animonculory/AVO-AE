@@ -2,7 +2,7 @@
 
 ## 3.2
 
-**Released**: `soon`
+**Released**: `27/01/2023`
 
 **NOTE**: This is the last planned update to AVO for a while.
 
