@@ -1,12 +1,14 @@
 # Adding mods to AVO
 
+**NO SUPPORT IS PROVIDED FOR ANY MODIFICATIONS THAT YOU UNDERTAKE. BY UNDERTAKING ANY MODIFICATIONS YOU VOID ALL SUPPORT BOTH ON GITHUB AND IN THE ANIMONCULORY SERVER.**
+
 ## Disclaimer
 
 No modifications are supported as we cannot track down what everyone has done. If you have modified your list, you void your support and bug reporting.
 
 ## Things to Know Before Modifying
 
-AVO uses **Skyrim version 1.6.353**. This means that **you need to use plugins that are made for Skyrim version 1.6.6xx**. If your desired plugin does not exist for 1.6.353 (commonly referred to as AE) then you cannot use it.
+AVO uses **Skyrim version 1.6.640/659**. This means that **you need to use plugins that are made for Skyrim version 1.6.6xx**. If your desired plugin does not exist for 1.6.640/659 (commonly referred to as AE) then you cannot use it.
 
 AVO is `method` patched which means that you can, within reason, remove or change near enough anything. No modgroups are included as they can complicate matters for newer modders. 
 
@@ -41,9 +43,33 @@ __Synthesis__
 
 No custom data is used in these patches so you can just simply run them.
 
+## Regenerating AVO's Lods
+
+After positioning these in the correct section, open up [this guide](https://github.com/The-Animonculory/Modding-Resources/blob/main/DynDOLOD.md) and follow the steps below.
+
+**NOTE: Ignore any references to SSE-Terrain-Tamriel in the guide.**
+
+1) Skip Installing Everything and go straight to xLodGen. All of the tools you need are already downloaded as part of AVO.
+2) Activate `Majestic Landscapes xLodGen` in Mod Organizer 2.
+3) Follow xLodGen as normal
+4) Launch `A Clear Map of Skyrim Road Generator Tool`. Follow instructions as normal.
+- Choose "Paths only" under the "Select roads" option. The browse button you want  is the one next to `Path to LOD`. The file you want should be ...AVO/tools/xLodGen/Output.
+- When installing it as a new mod, it should replace AVO - xLodGen in Mod Organizer 2.
+5) Deactivate `Majestic Landscapes xLodGen` in Mod Organizer 2.
+6) Remove `AVO - TexGen Output` in Mod Organizer 2. Pay attention to where it is in the load order (it's just above `AVO - DynDOLOD Output`).
+7) Follow TexGen instructions as normal.
+- When installing it as a new mod, it should go where `AVO - TexGen Output` went.
+8) Go here: https://github.com/The-Animonculory/Animonculory-Visual-Overhaul/blob/main/.github/AVO_Preset.ini.
+9) Click on "Raw" in the top right. Right click anywhere in the page and choose "Save Page As..." and download the file. Move the downloaded file to `...AVO\tools\DynDOLOD\Edit Scripts\DynDOLOD\Presets`.
+10) Run `DynDOLODx64`. In the top left section where it lists worldspaces, right click and press select all. At the bottom, select "Load preset", and load the file you just downloaded.
+11) Skip down to "Once you have configured the settings" in the DynDOLOD & Occlusion section under Generation and follow instructions as normal.
+- When installing it as a new mod, it should replace `AVO - DynDOLOD Output`.
+
 ## Changing the Graphical Post Processing
 
-By default, AVO comes with 2 Reshade presets and an ENB/Reshade manager to make switching much easier. By default, AVO uses [Rustic Weathers](https://www.nexusmods.com/skyrimspecialedition/mods/8398) and [Ambience](https://www.nexusmods.com/skyrimspecialedition/mods/46383) for lighting so, if you wish to not replace them, you will want a preset that works with them.
+By default, AVO comes with 2 Reshade presets and a pre-configured ENB to make switching much easier. By default, AVO uses [Rustic Weathers](https://www.nexusmods.com/skyrimspecialedition/mods/8398) and [Ambience](https://www.nexusmods.com/skyrimspecialedition/mods/46383) for lighting so, if you wish to not replace them, you will want a preset that works with them.
+
+**NOTE! I DO NOT PROVIDE SUPPORT FOR THIS.**
 
 ### Adding a new Reshade preset
 
@@ -63,12 +89,12 @@ In order for your Reshade preset to work properly, you will likely need to get s
 6. Make sure that the shaders required are ticked and then press `install`.
 7. Once Reshade is done installing, close the application.
 
-#### Moving it to work in the manager
+#### Moving it to work with Root Builder
 
 Now that you have the preset installed, it's time to move it to be managed by the manager so it can easily be enabled and disabled. **NOTE**: This process also applies to ENB presets as well.
 
 1. Create a new folder somewhere safe and call it the name of your preset. 
-2. Navigate to where AVO is installed and open the `Game Root` folder.
+2. Navigate to where your copy of Skyrim Special edition is installed.
 3. Select the files shown in the screenshot below.
 
 ![Reshade move these files](https://raw.githubusercontent.com/The-Animonculory/Animonculory-Visual-Overhaul/main/.github/ReshadeCopyThese.png)
@@ -77,52 +103,20 @@ Now that you have the preset installed, it's time to move it to be managed by th
 
 ![Reshade Preset files](https://raw.githubusercontent.com/The-Animonculory/Animonculory-Visual-Overhaul/main/.github/Reshade%20Preset%20Files.png)
 
-5. Launch Mod Organizer 2.
-6. There will be a dropdown box on the top right and a big `Run` button next to it. 
-7. Run the program named `Manage ENB/Reshade Presets` from Mod Organizer 2.
+5. Zip up that folder and call it the name of your new preset.
+6. Launch Mod Organizer 2.
+7. Click on the `Spanner and Screwdriver` icon in MO2 and select `Root Builder`.
+8. Tick the `Installer` checkbox under `Settings`.
 
-![Select the manager](https://raw.githubusercontent.com/The-Animonculory/Animonculory-Visual-Overhaul/main/.github/Select%20ER%20Manager.png)
+![Rootbuilder config](https://raw.githubusercontent.com/The-Animonculory/ADT/main/.github/RootbuilderConfig.webp)
 
-8. If the image below comes up, simply press OK. It is nothing to be concerned about.
+9. Add the ENB as a new mod in MO2. Rootbuilder should assign it properly.
+10. Verify that Rootbuilder has installed the ENB properly. It should look similar to the picture below:
 
-![Ignore the warning](https://github.com/The-Animonculory/Animonculory-Visual-Overhaul/blob/main/.github/Ignore%20Warning.png?raw=true)
+![ENB Rootbuilder Check](https://raw.githubusercontent.com/The-Animonculory/ADT/main/.github/ENBRootBuild.webp)
 
-9. Navigate to the Presets menu by pressing the symbol in the top left (the three lines). The menu should look like this:
-
-![Get to presets](https://github.com/The-Animonculory/Animonculory-Visual-Overhaul/blob/main/.github/ENB%203.png?raw=true)
-
-10. Once in the presets menu, click on the `Add` button and select the top option.
-
-![Reshade preset install 1](https://raw.githubusercontent.com/The-Animonculory/Animonculory-Visual-Overhaul/main/.github/Reshade%20Add%20Preset.png)
-
-11. Navigate to your new preset and select it.
-
-![Find and select the preset](https://raw.githubusercontent.com/The-Animonculory/Animonculory-Visual-Overhaul/main/.github/Reshade%20Preset%20Config.webp)
-
-12. Make sure the source folder is correct and name your preset accordingly.
-
-![Check the details](https://raw.githubusercontent.com/The-Animonculory/Animonculory-Visual-Overhaul/main/.github/Reshade%20Preset%20Config%202.png)
-
-13. Your preset has now been added and can be activated. **Make sure to deactivate the one that is currently active!**
-
-![Preset installed](https://raw.githubusercontent.com/The-Animonculory/Animonculory-Visual-Overhaul/main/.github/Preset%20Added.webp)
-
-### Installing an ENB
-
-**NOTE! This is NOT OFFICIALLY SUPPORTED. BY UNDERTAKING THIS CHANGE YOU VOID SUPPORT. AVO **does not** include any ENB files!**
-
-Not convinced by Reshade? That's ok, it's not for everyone. Before going to add an ENB however, please do try it out. The results may surprise you. 
-
-...Still here? Alright. Here's how to do it for a preset that's compatible.
-
-1. Disable `Reshade Helper` & `Vanilla POM`. Remove `d3dcompiler_47.dll` from the Game Root folder.
-2. Download [ENB binaries](http://enbdev.com), [ENB Helper](https://www.nexusmods.com/skyrimspecialedition/mods/23174) and [NVT ENB](https://www.nexusmods.com/Core/Libs/Common/Widgets/DownloadPopUp?id=75345&game_id=1704). Install ENB helper as normal in MO2.
-3. Create a new folder in a safe location called `NVT`.
-4. Copy `d3d11.dll` and `d3dcompiler_46e.dll` from the ENB binaries zip folder into there.
-5. Open the zipped folder of the ENB preset and copy the files from `Main File\Quality` into the folder you just placed the dll files in. 
-6. Follow the steps in [Moving it to work in the manager](#moving-it-to-work-in-the-manager).
-7. Adjust any other settings you wish to.
-8. Enjoy your new Preset.
+12. Activate your new preset **DO NOT DEACTIVATE THE OLD PRESET. THERE ARE REQUIRED DLL FILES IN THERE.**
+13. Enjoy your new preset.
 
 ## Adding Mods
 
@@ -130,7 +124,7 @@ Move every addition you make **above** the Synthesis and DynDOLOD esps. There is
 
 ### DLL Plugins
 
-For mods that include SKSE Plugins, **you need to use plugins that are made for Skyrim version 1.6.353**. This is mandatory and if your desired plugin does not exist for 1.6.353 (commonly refered as AE), then you can't use it.
+For mods that include SKSE Plugins, **you need to use plugins that are made for Skyrim version 1.6.640/659**. This is mandatory and if your desired plugin does not exist for 1.6.640/659 (commonly refered as AE), then you can't use it.
 
 Should you wish to use a plugin that is for on older version of Skyrim, you will need to downgrade the stock game folder and replace **ALL** dll mods 
 
@@ -162,11 +156,7 @@ These are mods that change things relating to
 - Architecture incl: Cities, towns and villages
 - Mountains
 
-These are more involved as you will need to regenerate the LOD files to ensure there is consistency across the worldspace. After positioning these in the correct section, please follow [this guide](https://github.com/The-Animonculory/Modding-Resources/blob/main/DynDOLOD.md) for regenerating the LOD files.
-
-**NOTE**: AVO uses [Worldspace Transition Tweaks](https://www.nexusmods.com/skyrimspecialedition/mods/48889) and thus does not come with `SSE-TERRAIN-TAMRIEL.ESM` as that is included in the aforementioned mod. Ignore any sections that refer to enabling `SSE-TERRAIN-TAMRIEL.ESM`.
-
-**NOTE**: AVO uses custom tree rules which can be found on the [Happy Little Trees Add-On - DynDOLOD 3](https://www.nexusmods.com/skyrimspecialedition/mods/56907) page. It uses the `Optimal` settings with the Lod32 settings from A Clear Map of Skyrim. You can get the preset used for DynDOLOD from [here](https://github.com/The-Animonculory/Animonculory-Visual-Overhaul/blob/main/.github/AVO_Preset.ini). Place it in `X:\Path\To\AVO\tools\DynDOLOD\Edit Scripts\DynDOLOD\Presets`.
+These are more involved as you will need to regenerate the LOD files to ensure there is consistency across the worldspace. Please follow the Regenerating lods section.
 
 #### NPC Replacers
 
@@ -174,4 +164,4 @@ These are mods that change things relating to:
 - NPC's
 - Facedata
 
-As of AVO 2.0, you no longer need to regenerate all of the facegen for newly added quest mods or have to contend with it. By default, AVO uses HMB II which has the option of assets to create new facegen. If you wish to do this, please follow [this guide](https://github.com/The-Animonculory/Modding-Resources/blob/main/Regenerating%20Faces%20in%20the%20Creation%20Kit.md) which details the process of doing so.
+AVO uses a custom curated mix of NPC overhaul mods however, they may not be to your taste. Should you wish to change them, deactivate them and then add your own. Resolve any conflicts that arise and then you should be fine. If you wish to create new facegen via the CK, please follow [this guide](https://github.com/The-Animonculory/Modding-Resources/blob/main/Regenerating%20Faces%20in%20the%20Creation%20Kit.md) which details the process of doing so.
