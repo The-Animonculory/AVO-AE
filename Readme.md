@@ -35,6 +35,8 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareA
 
 ## :computer: System Requirements
 
+:warning: AVO requires the most recent update to Windows 10 or 11 to function properly. LTSC or special variants of the operating systems **WILL NOT WORK**. :warning:
+
 AVO has been extensively tested using industry standard testing tools. From this testing, a system with similar specifications is recommended to achieve a stable framerate and enjoyable experience at 1080p.
 
 | Spec Category | Minimum for 30fps | Recommended for 60fps |
@@ -52,6 +54,8 @@ AVO has been extensively tested using industry standard testing tools. From this
 Space required: Approx 156GB (Downloads included)
 
 ## :page_facing_up: Installation
+
+:warning: AVO requires a **COMPLETELY UNMODIFIED** installation of the **LATEST VERSION** of Skyrim. :warning:
 
 Installing AVO is relatively easy and, if you have Nexus Premium, will be a simple waiting game. If you are updating the modlist, you can safely skip to the [updating section](#updating).
 
