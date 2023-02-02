@@ -5,7 +5,7 @@
 **Info**:
 
 - Fixed error with tanning rack (again)
-- Adjusted versions of Bug Fixes, Actor Limit Fix and Scrambled Bugs to enable better steam deck compatability.
+- Adjusted versions of Bug Fixes, Actor Limit Fix and Scrambled Bugs to enable better Linux/Proton/Steam Deck compatability.
 - Disabled ENB & DLAA by default to fix some crashing errors (Enable if you wish to use it)
 - Split off ENB binaries/DLL's to enable easier preset changing.
 - Fixed issue with Sun-direction
