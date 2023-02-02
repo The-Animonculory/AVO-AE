@@ -1,5 +1,16 @@
 # Changelog
 
+## 3.2.1
+
+**Info**:
+
+- Fixed error with tanning rack (again)
+- Adjusted versions of Bug Fixes, Actor Limit Fix and Scrambled Bugs to enable better steam deck compatability.
+- Disabled ENB & DLAA by default to fix some crashing errors (Enable if you wish to use it)
+- Split off ENB binaries/DLL's to enable easier preset changing.
+- Fixed issue with Sun-direction
+- Adjusted lod colour to blend with distant landscape better.
+
 ## 3.2
 
 **Released**: `27/01/2023`
