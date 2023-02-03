@@ -11,6 +11,18 @@
 - Fixed issue with Sun-direction
 - Adjusted lod colour to blend with distant landscape better.
 
+**Updated**
+- Assorted Mesh Fixes
+- Console++
+- CrashLogger
+- Genned Files
+- Happy Little Trees - Ivy on trees
+- Markarth Fixed AF
+- Navigator - Navmesh Tweaks
+- Papyrus Tweaks
+- SPID
+- USMP
+
 ## 3.2
 
 **Released**: `27/01/2023`
