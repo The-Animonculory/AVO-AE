@@ -148,6 +148,8 @@ Open the installation folder and double click on the program called `ModOrganize
 
 :warning: Make sure the dropdown box on the right is set to the SKSE corresponding to your game copy (`SKSE [STEAM]` or `SKSE [GOG]`) and press the `Run` button. :warning:
 
+:exclamation: :warning: **DO NOT IN ANY CIRCUMSTANCES PRESS `UNLOCK`. NEVER DO IT. YOU WILL BREAK THE LIST** :warning: :exclamation:
+
 ### :bookmark: In-Game MCM options
 `AVO has no MCM options required, however you can load the SmoothCam preset if you wish.`
 
