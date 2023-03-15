@@ -1,5 +1,9 @@
 # Changelog
 
+## 4.0 - "The Next Generation..."
+
+- Repo moved to https://github.com/The-Animonculory/AVO-NG
+
 ## 3.2.1
 
 **Info**:
